@@ -49,6 +49,21 @@ ul li a{
 ul li{
     list-style: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive */
 @media screen and (max-width:576px) {
   h1{
@@ -68,7 +83,7 @@ ul li{
     border-radius: 8px;
 }
 .header-text{
-    text-align: justify;
-    margin: 0 10px;
+    /* text-align: justify; */
+    margin: 0 0;
 }    
 }
