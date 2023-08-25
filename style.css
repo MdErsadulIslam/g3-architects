@@ -50,3 +50,25 @@ ul li{
     list-style: none;
 }
 /* responsive */
+@media screen and (max-width:576px) {
+  h1{
+    font-size: 2em;
+  }
+  .nav{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .menu{
+    justify-content: space-around;
+  }
+  .btn{
+    width:120px ;
+    height: 40px;
+    border-radius: 8px;
+}
+.header-text{
+    text-align: justify;
+    margin: 0 10px;
+}    
+}
