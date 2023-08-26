@@ -67,6 +67,7 @@ ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+ 
 }
 h2 {
   font-size: 45px;
@@ -105,7 +106,7 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-.number-box {
+.number-box{
   border: 1px solid orange;
   margin: 20px;
   text-align: center;
@@ -115,6 +116,26 @@ h1 {
 }
 .facts-head {
   margin: 10px 0;
+}
+/* sponspors section ------------------------------------ */
+.sponsors{
+text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+.sponsors-logo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+/* footer ------------------------------------------------- */
+.footer{
+  width: 1200px;
+  background-color: #ff900e;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 /* responsive -------////////////////////////////////////////*/
@@ -151,7 +172,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
-    max-width: 100%;
+    width: 100%;
   }
   h2 {
     font-size: 2em;
@@ -166,7 +187,7 @@ h1 {
     margin: 0 auto;
     padding: 10px 0px;
   }
-  .fetures-img {
+  .fetures-2-img{
     width: 100%;
   }
   /* facts section response ---------------------------- */
@@ -178,4 +199,19 @@ h1 {
     margin: 0 auto;
     padding: 10px 10px;
   }
+  .number-box{
+    margin: 10px 0;
+  }
+  /* sponsors section ------------------------------------ */
+  .sponsors{
+    text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 10px 10px;
+    }
+    .sponsors-logo{
+      display: block;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
 }
