@@ -68,13 +68,54 @@ ul li {
   flex-direction: column;
   justify-content: center;
 }
-h2{
- font-size: 45px;   
+h2 {
+  font-size: 45px;
 }
-.features{
-    color:#FF900E; ;
+.span {
+  color: #ff900e;
 }
 /* features section --------------------------------------- */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  gap: 50px;
+}
+.features-text,
+h1 {
+  margin-bottom: 30px;
+}
+.features-text-div {
+  margin: 30px 0;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+/* facts sections ---------------------------------------- */
+.facts {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+.number {
+  display: flex;
+  justify-content: space-between;
+}
+.number-box {
+  border: 1px solid orange;
+  margin: 20px;
+  text-align: center;
+}
+.facts-text {
+  margin-bottom: 50px;
+}
+.facts-head {
+  margin: 10px 0;
+}
 
 /* responsive -------////////////////////////////////////////*/
 /* header section ----------------------------------------- */
@@ -102,17 +143,39 @@ h2{
   .quick-list {
     display: flex;
     flex-direction: column-reverse;
-    width:100%;
-  
+    width: 100%;
+
     margin-top: 50px;
   }
   .quick-list-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
+    max-width: 100%;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  /* features section response ------------------------------ */
+  .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+  .fetures-img {
     width: 100%;
   }
-  h2{
-    font-size: 2em;
+  /* facts section response ---------------------------- */
+  .facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
   }
 }
